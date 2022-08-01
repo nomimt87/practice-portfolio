@@ -1,0 +1,108 @@
+body {
+  margin: 100px 0;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h3 {
+  color: #5a5a5a;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 85px;
+}
+
+a {
+  text-align: center;
+  display: block;
+  color: var(--primary-color);
+}
+
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+}
+
+.buttons {
+  margin: 20px 0 60px 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  margin: 0 20px;
+  padding: 20px;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.button1 {
+  text-decoration: none;
+  color: white;
+}
+
+.me {
+  margin: 0 20px;
+  padding: 20px;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+.button2 {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a {
+  color: var(--primary-color);
+}
+
+#contact-me {
+  display: block;
+  font-size: 35px;
+}
+
+.email {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 25px;
+}
+
+#mine {
+  background-color: var(--secondary-color);
+}
+
+#story {
+  font-size: 19px;
+  padding: 20px 10px 30px 10px;
+}
+
+h2.d-inline {
+  font-size: 40px;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+.launch {
+  display: inline;
+  padding: 20px;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+  color: white;
+}
